@@ -1,0 +1,218 @@
+.nav{
+    background:#007bff;
+    height: 50px;
+    padding:2px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+   font-size: 20px;
+    
+}
+
+#logout{
+    position: absolute;
+    right: 150px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+}
+#loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#createAccountContainer {
+    display: none;
+}
+
+#content_container {
+    display: none;
+}
+
+.card{
+    margin: 10px;
+    padding: 5px;
+}
+
+.card-userInfo{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 4px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-weight: normal;
+
+}
+
+.card-title{
+    font-weight: bold;
+}   
+#pro{
+    width: 90px;
+    height: 35px;
+    border: 1px solid black;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#createAccountContainer {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+/* Heading styles */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Form input and button styles */
+.form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    /* border: none; */
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.login-div{
+display: flex;
+justify-content: center;
+
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    border: 2px solid #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #createAccountContainer {
+        padding: 10px;
+    }
+}
+
+.blog{
+width: 350px;
+}
+.bbtn{
+    margin-bottom: 10px;
+}
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#content_container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+/* Heading styles */
+h1, h3, h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Form input and button styles */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* Form label styles */
+.form-label {
+    display: none; /* Hide form labels */
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+/* Blog post container styles */
+#post_container {
+    margin-top: 20px;
+}
+
+/* Individual blog post styles */
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #content_container {
+        padding: 10px;
+    }
+}
+
+
+
+
+
